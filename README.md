@@ -6,7 +6,7 @@ Fecom Inc. is a fictional e-commerce marketplace company based in Berlin, German
 🗃️ Database Schema: market_place_orders
 This project contains a relational database schema that models customer and order data from an e-commerce platform. The schema is built on SQL Server and consists of eight main tables along with their relationships.
 
-
+![Database Schema](database_diagram.png)
 
 🔧 Tables and Descriptions
 1. geolocations
@@ -51,5 +51,16 @@ Contains customer reviews and ratings for each order.
 Primary Key: Composite key (review_id, order_id)
 Foreign Key: order_id → orders
 
+🔧 Data Preparation
+Initial data cleaning and preprocessing were performed in Excel to ensure data consistency and readiness for analysis.
+
+Cleaned datasets were imported into SQL Server, where they were organized into separate tables with appropriate relationships.
+
 📥 Data Import
 CSV files are imported into SQL Server using BULK INSERT statements. File paths refer to the data_analysis\market_place_orders\ directory within the project. The scripts use the UTF-8 character set and specify appropriate FIELDTERMINATOR values per file
+
+## Important Note:
+The dataset description says there are 102,727 unique customers. However, when the customer_list csv file was examined, it was seen that there were 99,441 unique customers and the customer_ids of the rest were empty. In addition, this data was removed from the dataset cluster because it did not match any table.
+
+🧠 SQL-Based Analysis
+A variety of business insights were derived using SQL queries on the cleaned datasets. The analysis focused on identifying customer loyalty patterns, measuring seller performance, and evaluating delivery efficiency by comparing estimated and actual delivery times. Additionally, product categories were ranked based on sales and revenue, while the distribution of payment methods was examined to understand customer preferences. The relationship between customer reviews and ratings was also explored, along with return behaviors across categories. Finally, regional revenue distributions were calculated to highlight city-level income contributions. These findings were later visualized in Power BI through interactive dashboards to support data-driven decision-making.
