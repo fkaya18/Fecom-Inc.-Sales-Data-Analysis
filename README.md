@@ -6,7 +6,7 @@ Fecom Inc. is a fictional e-commerce marketplace company based in Berlin, German
 Insights and recommendations are provided on the following key areas: 
 - 📊 **Sales Trends Analysis**: Evaluation of historical sales patterns, focusing on Revenue, Month Over Month Change, Moving Averages, and 6-Month Revenue Forecast.
 - 📦 **Product Level Performance**: An analysis of Fecom Inc's various product lines, understanding their impact on sales and returns.
-- 💳 **Loyalty Program Success**: An assessment of the loyalty program on customer retention and sales.
+- 💳 **Customer Segmentation**: A revenue-based classification of customers to identify high-value segments and optimize targeted sales strategies.
 - 🌍 **Regional Comparisons**: An evaluation of sales and orders by region.
 
 An Interactive Power BI dashboard can be downloaded [here](https://drive.google.com/drive/folders/1zOMeSxpi79LqGce3ZOB6tDb-YG1m_edx?usp=sharing).
@@ -18,59 +18,8 @@ This project contains a relational database schema that models customer and orde
 
 ![Database Schema](fecom_inc_database_diagram.png)
 
-🔧 Tables and Descriptions
-1. geolocations
-Stores geographical information based on city and postal code.
-Primary Key: Composite key (postal_code, city)
-Other fields: latitude, longitude, country
-
-2. customer_list
-Contains personal and demographic information about registered customers.
-Primary Key: customer_id
-Foreign Key: customer_postal_code, customer_city → geolocations
-
-3. sellers_list
-Contains information about sellers on the platform.
-Primary Key: seller_id
-Foreign Key: seller_postal_code, seller_city → geolocations
-
-4. products
-Stores information about the products sold.
-Primary Key: product_id
-
-5. orders
-Each record represents a customer order.
-Primary Key: order_id
-Foreign Key: customer_id → customer_list
-
-6. order_items
-Stores details about products included in each order. One order can have multiple items.
-Primary Key: Composite key (order_id, order_item_id)
-Foreign Keys:
-order_id → orders
-product_id → products
-seller_id → sellers_list
-
-7. order_payments
-Includes payment information for each order.
-Primary Key: Composite key (order_id, payment_sequential)
-Foreign Key: order_id → orders
-
-8. order_reviews
-Contains customer reviews and ratings for each order.
-Primary Key: Composite key (review_id, order_id)
-Foreign Key: order_id → orders
-
-🔧 Data Preparation
-Initial data cleaning and preprocessing were performed in Excel to ensure data consistency and readiness for analysis.
-
-Cleaned datasets were imported into SQL Server, where they were organized into separate tables with appropriate relationships.
-
-📥 Data Import
-CSV files are imported into SQL Server using BULK INSERT statements. File paths refer to the data_analysis\market_place_orders\ directory within the project. The scripts use the UTF-8 character set and specify appropriate FIELDTERMINATOR values per file
-
 ## Important Note:
-The dataset description says there are 102,727 unique customers. However, when the customer_list csv file was examined, it was seen that there were 99,441 unique customers and the customer_ids of the rest were empty. In addition, this data was removed from the dataset cluster because it did not match any table.
+The dataset description claims that there are 102,727 unique customers. However, when the customer_list csv file was examined, it was seen that there were 99,441 unique customers and the customer_ids of the rest were empty. In addition, this data was removed from the dataset cluster because it did not match any table.
 
 ## Data Analysis
 🧠 SQL-Based Analysis
