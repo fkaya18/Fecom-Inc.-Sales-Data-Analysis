@@ -16,7 +16,7 @@ The SQL queries used to prepare and analyze the data can be found [here](https:/
 ## 🗃️ Database Schema
 This project contains a relational database schema that models customer and order data from an e-commerce platform. The schema is built on SQL Server and consists of eight main tables along with their relationships.
 
-![Database Schema](database_diagram.png)
+![Database Schema](fecom_inc_database_diagram.png)
 
 🔧 Tables and Descriptions
 1. geolocations
