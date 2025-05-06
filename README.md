@@ -11,7 +11,9 @@ Insights and recommendations are provided on the following key areas:
 
 An Interactive Power BI dashboard can be downloaded [here](https://drive.google.com/drive/folders/1zOMeSxpi79LqGce3ZOB6tDb-YG1m_edx?usp=sharing).
 
-🗃️ Database Schema: market_place_orders
+The SQL queries used to prepare and analyze the data can be found [here](https://github.com/fkaya18/Fecom-Inc.-Sales-Data-Analysis/blob/main/fecom_inc_SQLQuery.sql).
+
+## 🗃️ Database Schema
 This project contains a relational database schema that models customer and order data from an e-commerce platform. The schema is built on SQL Server and consists of eight main tables along with their relationships.
 
 ![Database Schema](database_diagram.png)
