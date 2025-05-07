@@ -6,8 +6,8 @@ Fecom Inc. is a fictional e-commerce marketplace company based in Berlin, German
 Insights and recommendations are provided on the following key areas: 
 - 📊 **Sales Trends Analysis**: An evaluation of historical sales patterns, focusing on Revenue, Month Over Month Change, Moving Averages, and 6-Month Revenue Forecast.
 - 📦 **Product Level Performance**: An analysis of Fecom Inc's various product lines, understanding their impact on sales and returns.
-- 💳 **Customer Demographics**: An analysis of customer income distribution across age groups and gender to uncover demographic trends in revenue generation.
-- 🌍 **Regional Comparisons**: An evaluation of sales and orders by customer region.
+- 💳 **Customer Demographics**: An analysis of customer income distribution across age groups, gender and country to uncover demographic trends in revenue generation.
+- 📦 **Payment and Delivery Performance**: An evaluation of transaction values and delivery times to identify patterns, delays, and their impact on customer satisfaction and operational efficiency.
 
 An Interactive Power BI dashboard can be downloaded [here](https://drive.google.com/drive/folders/1zOMeSxpi79LqGce3ZOB6tDb-YG1m_edx?usp=sharing).
 
@@ -36,13 +36,37 @@ In 2023, revenue started around $200K in January and steadily increased througho
 
 ## Month-over-Month Revenue Change
 Early 2023 saw exceptional momentum with growth exceeding 100% in February, followed by consistently positive but gradually decreasing growth rates as the year progressed. By late 2023, this momentum began to slow, with November-December 2023 recording negative growth. The pattern continued into 2024, where the company experienced more modest growth percentages and occasional slight declines, clearly signaling a transition from rapid expansion to market stabilization as the business matured and established its revenue baseline.
-![MoM Change](MoM Change.png)
+![MoM Change](MoM_change.png)
 
 ## Daily Revenue Trend with Moving Averages
 The trend shows a clear upward trend from early 2023 through early 2024, with revenue spikes becoming more pronounced and reaching as high as $180K on peak in November 24th. Both the 3-month and 6-month moving averages demonstrate steady growth throughout 2023, eventually stabilizing around $35-40K daily revenue in 2024. However, a concerning sharp decline is visible at the end of the reporting period in July 2024, warranting immediate investigation to determine whether this represents a temporary anomaly or the beginning of a more significant downturn in business performance.
+![Daily Reveneue](daily_revenue.png)
 
 ## Monthly Revenue with 6-Month Forecast
 The monthly revenue forecast model projects continued positive growth for FECOM over the next six months, with revenue potentially reaching approximately $1.5M by early 2025. This optimistic outlook is tempered by the widening confidence interval (shown as a purple shaded area) that expands significantly toward the end of the forecast period, indicating increasing uncertainty in these projections as they extend further into the future. Despite recent fluctuations in monthly performance, the overall trajectory suggests the company has potential for continued growth, though leadership should closely monitor performance against these projections to validate the forecast model and adjust strategies accordingly as new data becomes available.
+![6 Month Forecast](6_month_forecast.png)
+
+# Product Performance
+
+## Top 10 Products Generating Highest Revenue
+Among the product categories that generate the most revenue, the Health & Beauty category is seen to lead in sales performance, followed closely by Watches & Gifts and Bed, Bath & Tableware, with these three categories accounting for 20% of the total revenue.The top 10 categories form a well-balanced portfolio with Health & Beauty generating approximately $1.5M, followed by six categories each contributing between $0.8M-$1.2M (Watches & Gifts, Bed & Bath, Sports & Leisure, Computers & Accessories, Furniture & Decor, and Housewares). The remaining categories (Cool Stuff, Auto, and Garden Tools) each contribute between $0.3M-$0.7M. This distribution suggests FECOM Inc. has successfully diversified its product offerings while maintaining strong performance in health, lifestyle, and home-related categories, which appear to be its core strength areas.
+
+# Customer Demographics
+
+## Revenue by Customer Age and Gender
+Revenue analysis by customer demographics reveals that the 36-45 age group generates the highest revenue at approximately $3M, making them FECOM Inc's most valuable customer segment. The 26-35 and 46-55 age groups follow as the second and third highest-performing segments respectively, each generating approximately $2M in revenue. Male customers appear to generate slightly higher revenue than female customers across most age brackets, with the most pronounced difference visible in the peak 36-45 segment.
+
+## Revenue by Customer Country
+The revenue by customer country visualization illustrates that Germany, FECOM Inc.'s home market, predictably generates the highest revenue, reflecting the company's strong domestic presence and brand recognition. France follows as the second largest market, with the Netherlands placing third, demonstrating FECOM's effective expansion into neighboring countries. The treemap visualization reveals a classic Central European market penetration pattern typical of German e-commerce companies, with concentric circles of influence: Germany as the core market; immediately adjacent countries (France, Netherlands) forming a secondary tier; and nearby Central European nations (Belgium, Austria, Switzerland, Czechia) along with the United Kingdom comprising smaller but still significant markets.
+
+# Payment and Delivery Performance
+
+## Payment Method
+Payment method analysis shows an overwhelming preference for credit cards, which account for 74.7% of transactions ($12.35M), while debit cards represent nearly 20% of orders ($2.86M). Alternative payment methods including vouchers and prepaid cards collectively represent only about 5% of transactions.
+
+## Delivery Situations and Their Reflect on Review Score
+The delivery performance metrics reveal operational efficiency challenges, with 92,560 (93.4%) orders delivered on time with an average delivery time of 10.95 days and high customer satisfaction (4.21/5 average review score). However, 6,532 (6.6%) orders were delivered late with a significantly longer average delivery time of 34.06 days and much lower customer satisfaction (2.27/5 average review score). This suggests that delivery delays dramatically impact customer experience and represent a critical area for operational improvement.
+
 
 ## Data Analysis
 🧠 SQL-Based Analysis
