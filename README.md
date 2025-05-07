@@ -19,7 +19,7 @@ This project contains a relational database schema that models customer and orde
 ![Database Schema](fecom_inc_database_diagram.png)
 
 ## Important Note:
-The dataset description claims that there are 102,727 unique customers. However, when the customer_list csv file was examined, it was seen that there were 99,441 unique customers and the customer_ids of the rest were empty. In addition, this data was removed from the dataset cluster because it did not match any table.
+The dataset description claims that there are 102,727 unique customers. However, when the customer_list csv file was examined, it was seen that there were 99,441 unique customers and the customer_ids of the rest were empty. In addition, this entries were removed from the dataset because they did not match any table.
 
 # Executive Summary
 
