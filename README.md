@@ -60,6 +60,8 @@ Among the product categories that generate the most revenue, the Health & Beauty
 ## Top Revenue Generating Sellers
 Eight companies have generated over $200K in sales, with GlobalDynamics leading at approximately $250K followed closely by AlphaLabs. The concentration of German sellers (7 out of 8 top performers) reflects FECOM Inc.'s German origins, creating a natural advantage for local sellers, while CoreLogistics stands out as the only UK-based company breaking into this elite group. These top performers represent just 0.26% of the total 3,095 seller base, highlighting both the competitive marketplace and the significant revenue potential for those who excel on the platform.
 
+![Top Revenue Generating Sellers](images/sellers_revenue.png)
+
 # Customer Demographics and Segmentation
 
 ## Revenue by Customer Age and Gender
@@ -75,9 +77,12 @@ Germany, FECOM Inc.'s home market, predictably dominates sales with Berlin gener
 ## Monthly Revenue by Customer Segment
 With customers segmented based on spending percentiles, Platinum+ customers (top 0.1%) consistently generate the highest revenue, showing significant growth from around $60K to peaks exceeding $440K in late 2023 and early 2024, though with notable volatility. The middle segments (Platinum, VIP, and Gold) show more stable growth trajectories between $100K-$250K, while Silver and Bronze segments (representing the bottom 50% of customers) contribute relatively smaller but steady revenue streams below $100K. All segments show overall growth since January 2023, with seasonal fluctuations visible across the entire customer base.
 
+![Monthly Revenue by Customer Segment](images/monthly_revenue_by_customer_segment.png)
 
 ## Segment-Level Revenue Performance Overview
 FECOM Inc. serves 99,092 customers across six spending segments, with revenue distribution revealing clear strategic priorities. Platinum customers, though comprising only 9.9% of the customer base (9,793 individuals), drive the company's financial performance by generating 36.12% of total revenue ($5.76M) with an average spend of $588.10 each. Gold and VIP segments each contribute approximately 21% of total revenue ($3.4M) despite their different sizes (24,785 Gold customers versus 14,864 VIP customers), while Silver and Bronze tiers contain roughly 25% of customers each but contribute disproportionately less (12.70% and 6.67% respectively). The elite Platinum+ segment, representing just 101 ultra-premium customers (0.1%), generates only 2.14% of total revenue despite an impressive average spend of $3,384.34 per customer, demonstrating that while these top spenders have high individual value, their small number limits their aggregate contribution compared to the broader Platinum tier.
+
+![Segment-Level Revenue Performance Overview](images/segments.png)
 
 # Payment and Delivery Performance
 
