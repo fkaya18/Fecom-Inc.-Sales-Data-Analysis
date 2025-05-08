@@ -50,14 +50,17 @@ The monthly revenue forecast model projects continued positive growth for FECOM 
 
 ![6 Month Forecast](images/6_month_forecast.png)
 
-# Product Performance
+# Product and Seller Performance
 
 ## Top 10 Categories Generating Highest Revenue
 Among the product categories that generate the most revenue, the Health & Beauty category is seen to lead in sales performance, followed closely by Watches & Gifts and Bed, Bath & Tableware, with these three categories accounting for 20% of the total revenue.The top 10 categories form a well-balanced portfolio with Health & Beauty generating approximately $1.5M, followed by six categories each contributing between $0.8M-$1.2M (Watches & Gifts, Bed & Bath, Sports & Leisure, Computers & Accessories, Furniture & Decor, and Housewares). The remaining categories (Cool Stuff, Auto, and Garden Tools) each contribute between $0.3M-$0.7M. This distribution suggests FECOM Inc. has successfully diversified its product offerings while maintaining strong performance in health, lifestyle, and home-related categories, which appear to be its core strength areas.
 
 ![Top 10 Categories Generating Highest Revenue](images/top_10_revenue.png)
 
-# Customer Demographics
+## Top Revenue Generating Sellers
+Eight companies have generated over $200K in sales, with GlobalDynamics leading at approximately $250K followed closely by AlphaLabs. The concentration of German sellers (7 out of 8 top performers) reflects FECOM Inc.'s German origins, creating a natural advantage for local sellers, while CoreLogistics stands out as the only UK-based company breaking into this elite group. These top performers represent just 0.26% of the total 3,095 seller base, highlighting both the competitive marketplace and the significant revenue potential for those who excel on the platform.
+
+# Customer Demographics and Segmentation
 
 ## Revenue by Customer Age and Gender
 Revenue analysis by customer demographics reveals that the 36-45 age group generates the highest revenue at approximately $3M, making them FECOM Inc's most valuable customer segment. The 26-35 and 46-55 age groups follow as the second and third highest-performing segments respectively, each generating approximately $2M in revenue. Male customers appear to generate slightly higher revenue than female customers across most age brackets, with the most pronounced difference visible in the peak 36-45 segment.
@@ -68,6 +71,13 @@ Revenue analysis by customer demographics reveals that the 36-45 age group gener
 Germany, FECOM Inc.'s home market, predictably dominates sales with Berlin generating the highest revenue, followed by multiple strong-performing German cities including Hamburg, Munich, Cologne, Frankfurt, and Stuttgart. This multi-city strength demonstrates FECOM's deep domestic market penetration. Outside Germany, major European capitals and commercial hubs drive performance, with Paris (France) and Amsterdam (Netherlands) emerging as particularly strong international markets. The treemap visualization showcases a classic Central European expansion pattern, with concentric circles of influence radiating from German urban centers to major cities in bordering countries (Paris, Amsterdam, Antwerp, Vienna, Zurich) and then to urban centers in the broader European region (London, Warsaw, Oslo, Copenhagen). This city-focused distribution highlights FECOM's effective urban-centric marketing strategy that prioritizes metropolitan areas with higher population density and stronger e-commerce adoption rates across the Central European economic zone.
 
 ![Revenue by Customer Country and City](images/revenue_by_country_and_city.png)
+
+## Monthly Revenue by Customer Segment
+With customers segmented based on spending percentiles, Platinum+ customers (top 0.1%) consistently generate the highest revenue, showing significant growth from around $60K to peaks exceeding $440K in late 2023 and early 2024, though with notable volatility. The middle segments (Platinum, VIP, and Gold) show more stable growth trajectories between $100K-$250K, while Silver and Bronze segments (representing the bottom 50% of customers) contribute relatively smaller but steady revenue streams below $100K. All segments show overall growth since January 2023, with seasonal fluctuations visible across the entire customer base.
+
+
+## Segment-Level Revenue Performance Overview
+FECOM Inc. serves 99,092 customers across six spending segments, with revenue distribution revealing clear strategic priorities. Platinum customers, though comprising only 9.9% of the customer base (9,793 individuals), drive the company's financial performance by generating 36.12% of total revenue ($5.76M) with an average spend of $588.10 each. Gold and VIP segments each contribute approximately 21% of total revenue ($3.4M) despite their different sizes (24,785 Gold customers versus 14,864 VIP customers), while Silver and Bronze tiers contain roughly 25% of customers each but contribute disproportionately less (12.70% and 6.67% respectively). The elite Platinum+ segment, representing just 101 ultra-premium customers (0.1%), generates only 2.14% of total revenue despite an impressive average spend of $3,384.34 per customer, demonstrating that while these top spenders have high individual value, their small number limits their aggregate contribution compared to the broader Platinum tier.
 
 # Payment and Delivery Performance
 
