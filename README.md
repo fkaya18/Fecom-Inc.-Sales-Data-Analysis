@@ -6,7 +6,7 @@ Fecom Inc. is a fictional e-commerce marketplace company based in Berlin, German
 Insights and recommendations are provided on the following key areas: 
 - 📊 **Sales Trends Analysis**: An evaluation of historical sales patterns, focusing on Revenue, Month Over Month Change, Moving Averages, and 6-Month Revenue Forecast.
 - 📦 **Product Level Performance**: An analysis of Fecom Inc's various product lines, understanding their impact on sales and returns.
-- 💳 **Customer Demographics**: An analysis of customer income distribution across age groups, gender and country to uncover demographic trends in revenue generation.
+- 💳 **Customer Demographics and Segmentation**: A detailed breakdown of customer age and gender in relation to revenue, along with a segmentation based on spending behavior to identify high- and low-value customer groups.
 - 📦 **Payment and Delivery Performance**: An evaluation of transaction values and delivery times to identify patterns, delays, and their impact on customer satisfaction and operational efficiency.
 
 An Interactive Power BI dashboard can be downloaded [here](https://drive.google.com/drive/folders/1zOMeSxpi79LqGce3ZOB6tDb-YG1m_edx?usp=sharing).
