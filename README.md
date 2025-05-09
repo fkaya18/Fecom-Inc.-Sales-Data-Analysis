@@ -18,8 +18,6 @@ This project contains a relational database schema that models customer and orde
 
 ![Database Schema](images/fecom_inc_database_diagram.png)
 
-## Important Note:
-The dataset description claims that there are 102,727 unique customers. However, when the customer_list csv file was examined, it was seen that there were 99,441 unique customers and the customer_ids of the rest were empty. In addition, this entries were removed from the dataset because they did not match any table.
 
 # Executive Summary
 After a significant growth period through 2023, FECOM Inc. has experienced revenue stabilization with some fluctuations in 2024. The dashboard shows monthly revenue consistently reaching around $1M in 2024, representing substantial growth from early 2023 levels when monthly revenue was below $0.5M. Notably, in just the first eight months of 2024, FECOM Inc. has already generated 20% more revenue than in the entire 2023 fiscal year, highlighting the company's remarkable expansion. The month-over-month revenue changes show volatility, with strong positive growth in early 2023 followed by more modest or occasionally negative growth in 2024, suggesting the company has reached a more mature market position. 
