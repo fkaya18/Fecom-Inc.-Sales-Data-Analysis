@@ -17,7 +17,7 @@ The SQL queries used to prepare and analyze the data can be found [here](https:/
 ## 🗃️ Database Schema
 This project contains a relational database schema that models customer and order data from an e-commerce platform. The schema is built on SQL Server and consists of eight main tables along with their relationships.
 
-![Database Schema](images/fecom_inc_database_diagram.png)
+![Database Schema](images/database_diagram.png)
 
 
 # Executive Summary
@@ -26,9 +26,13 @@ This project contains a relational database schema that models customer and orde
 
 Fecom Inc. demonstrated strong overall performance during the May 2023 to August 2024 period, generating $15.9 million in total revenue from 99,092 orders with an average order value of $160.9. After achieving peak performance in November 2023 (7,544 orders, $1.19M revenue), the company has shown volatile monthly performance with an overall declining trend from the peak levels, with August 2024 recording 6,292 orders and $1.02M revenue. However, year-over-year analysis reveals robust fundamental growth, with August 2024 showing 50.3% increase in orders and 51.6% revenue growth compared to August 2023.
 
-The Power BI dashboard overview page is shown below, and the report has additional examples. You can download the full interactive dashboard [here](https://drive.google.com/drive/folders/1zOMeSxpi79LqGce3ZOB6tDb-YG1m_edx?usp=sharing).
+The Power BI dashboard overview pages are shown below, and the report has additional examples. You can download the full interactive dashboard [here](https://drive.google.com/drive/folders/1zOMeSxpi79LqGce3ZOB6tDb-YG1m_edx?usp=sharing).
 
-![Executive Summary](images/sales_trends.png)
+<p align="center">
+  <img src="images/sales.png" alt="Executive Summary" width="400"/>
+  <img src="images/trends.png" alt="Sales Summary" width="400"/>
+</p>
+
 
 # Customer Demographics and Segmentation
 
@@ -48,6 +52,8 @@ The Power BI dashboard overview page is shown below, and the report has addition
 
 * **Gender-Based Revenue Patterns:** Revenue analysis reveals distinct spending patterns across segments and gender, with Gold segment generating the highest total revenue at $6.16M, followed by Silver at $4.2M and VIP at $2.87M, while male customers consistently demonstrate higher spending volumes across most segments, particularly in mid-tier categories.
 
+![Customers](images/customers.png)
+
 
 # Sellers and Product Performance
 
@@ -60,6 +66,9 @@ The Power BI dashboard overview page is shown below, and the report has addition
 * **Geographic Expansion:** Strong European seller presence with growth opportunities in emerging markets like Sweden, Serbia, Slovenia, and Estonia for market penetration strategies.
 
 * **Profitability Mix:** Premium categories like Computers ($1,182 average) drive profitability, while volume leaders like Bed_Bath_Table (11,107 units) and Health_Beauty (9,619 units) ensure transaction frequency and market penetration
+
+![Sellers and Products](images/sellers_and_products.png)
+
 
 # Payment, Delivery and Reviews
 
@@ -77,6 +86,8 @@ The Power BI dashboard overview page is shown below, and the report has addition
 
 * **Delivery Status Reviews:** On-time deliveries achieve highest satisfaction (4.29 rating) compared to late deliveries (2.27) and non-delivered orders (1.77), emphasizing delivery reliability as key to customer retention.
 
+![Payment, Delivery and Reviews](images/payment_delivery_reviews.png)
+
 
 # Sales Trends 
 
@@ -93,6 +104,11 @@ The Power BI dashboard overview page is shown below, and the report has addition
 * **Revenue Trend Analysis:** 3-month moving average shows consistent upward trajectory from $20K baseline to $40K+ levels, demonstrating strong business fundamentals and growth sustainability despite short-term fluctuations.
 
 * **Order Count vs. Value Correlation:** Inverse relationship visible between order volume and average order value, with higher volume months (9K-11K orders) corresponding to lower AOV ($155-165), suggesting volume-driven promotional strategies impact pricing dynamics.
+
+<p align="center">
+  <img src="images/sales.png" alt="Executive Summary" width="400"/>
+  <img src="images/trends.png" alt="Sales Summary" width="400"/>
+</p>
 
 
 
