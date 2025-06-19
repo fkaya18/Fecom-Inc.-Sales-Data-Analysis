@@ -29,7 +29,7 @@ This project contains a relational database schema that models customer and orde
 
 ## Overview of Findings
 
-Fecom Inc. demonstrated strong overall performance during the May 2023 to August 2024 period, generating $15.9 million in total revenue from 99,092 orders with an average order value of $160.9. After achieving peak performance in November 2023 (7,544 orders, $1.19M revenue), the company has shown volatile monthly performance with an overall declining trend from the peak levels, with August 2024 recording 6,292 orders and $1.02M revenue. However, year-over-year analysis reveals robust fundamental growth, with August 2024 showing 50.3% increase in orders and 51.6% revenue growth compared to August 2023.
+Fecom Inc. demonstrated strong overall performance during the January 2023 to August 2024 period, generating $15.9 million in total revenue from 99,092 orders with an average order value of $160.9. After achieving peak performance in November 2023 (7,544 orders, $1.19M revenue), the company has shown volatile monthly performance with an overall declining trend from the peak levels, with August 2024 recording 6,292 orders and $1.02M revenue. However, year-over-year analysis reveals robust fundamental growth, with August 2024 showing 50.3% increase in orders and 51.6% revenue growth compared to August 2023.
 
 The Power BI dashboard overview pages are shown below, and the report has additional examples. You can download the full interactive dashboard [here](https://drive.google.com/drive/folders/1zOMeSxpi79LqGce3ZOB6tDb-YG1m_edx?usp=sharing).
 
@@ -66,7 +66,7 @@ The Power BI dashboard overview pages are shown below, and the report has additi
 
 * **Seller Revenue Concentration:** GlobalDynamics ($253.37K) and AlphaLabs ($248.76K) lead the marketplace, while emerging sellers like NovaLabs represent untapped growth potential, suggesting opportunities for seller development programs.
 
-* **Category Growth Dynamics:** Health_Beauty shows explosive 140% growth (from $0.6M to $1.44M), while underperforming categories like Cds_Dvds_Musicals and Fashion_Childrens_Clothes indicate strategic optimization needs.
+* **Category Growth Dynamics:** Health_Beauty shows explosive 50% growth (from $0.6M to $0.9M), while underperforming categories like Cds_Dvds_Musicals and Fashion_Childrens_Clothes indicate strategic optimization needs.
 
 * **Geographic Expansion:** Strong European seller presence with growth opportunities in emerging markets like Sweden, Serbia, Slovenia, and Estonia for market penetration strategies.
 
