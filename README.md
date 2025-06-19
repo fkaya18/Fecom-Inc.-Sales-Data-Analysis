@@ -3,6 +3,9 @@
 ## Project Background
 Fecom Inc. is a fictional e-commerce marketplace company based in Berlin, Germany. Between 2023 and 2024, it recorded 99,092 orders from 99,092 unique customers and tracked all commercial transactions of 3,068 sellers. This dataset contains commercial data across 265 cities in 27 countries and includes various details about customers and orders, allowing for CRM, sales opportunity, or marketing analysis. The data includes order dates, delivery dates, cart values, shipping costs, order reviews and ratings, payment methods and much more. Since the marketplace is not limited to a specific product, it features 32,787 distinct products across 72 different categories.This project analyzes the available data to gain insight into Fecom Inc.’s performance and includes critical insights that will contribute to the company’s improvement.
 
+Additional information about the dataset and raw dataset can be retrieved [here](https://www.kaggle.com/datasets/cemeraan/fecom-inc-e-com-marketplace-orders-data-crm?phase=FinishSSORegistration&returnUrl=%2Fdatasets%2Fcemeraan%2Ffecom-inc-e-com-marketplace-orders-data-crm%2Fversions%2F1%3Fresource%3Ddownload&SSORegistrationToken=CfDJ8KT8tnOr7fFFm_byYmusL7gA2ZzwD8Pki8IzeQ1TU1WYFOE4ppQMlE01SJlL49iWCAaGTIiug71m4sXl616IXNx8AJ78BdGiX-mDypUIWV0YaAyi5SNpKf0R-s9lxtWJr7aNCQxJzlLsw0t7DKYcKxJbl3wqfk30zYoWILkQKD1NVvyK2moXK2F8sFkCfV0Vx9J9b7SDdwrapgB-6xD9pNxsRIwZaLSd2aKcxSXm_Pg2oGRaBnghYnSs2AjdTZy3bPbpVpSU0fGGstMpeEmqG8ljUoTgWfnRRe2EcNmdNr35LaM3xUlE85Tu1cxhczs8M_Grf-3kEbBVMm8IyDKO5Jg39xddKqap&DisplayName=Furkan+Kaya&select=Fecom+Inc+Geolocations.csv)
+
+
 Insights and recommendations are provided on the following key areas: 
 - 💳 **Customer Demographics and Segmentation**: A detailed breakdown of customer age and gender in relation to revenue, along with a segmentation based on spending behavior to identify high- and low-value customer groups.
 - 📦 **Seller and Product Performances**: An analysis of Fecom Inc's various product lines and sellers, understanding their impact on sales and returns.
@@ -12,7 +15,9 @@ Insights and recommendations are provided on the following key areas:
 
 An Interactive Power BI dashboard can be downloaded [here](https://drive.google.com/drive/folders/1zOMeSxpi79LqGce3ZOB6tDb-YG1m_edx?usp=sharing).
 
-The SQL queries used to prepare and analyze the data can be found [here](https://github.com/fkaya18/Fecom-Inc.-Sales-Data-Analysis/blob/main/fecom_inc_SQLQuery.sql).
+The SQL queries used to clean, validate and analyze the dataset can be found [here](https://github.com/fkaya18/Fecom-Inc.-Sales-Data-Analysis/blob/main/fecom_inc_SQLQuery.sql).
+
+All of the data that are used to analyze the dataset and create charts can be found [here]()
 
 ## 🗃️ Database Schema
 This project contains a relational database schema that models customer and order data from an e-commerce platform. The schema is built on SQL Server and consists of eight main tables along with their relationships.
