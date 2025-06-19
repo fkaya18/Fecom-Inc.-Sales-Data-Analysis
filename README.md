@@ -6,7 +6,7 @@ Fecom Inc. is a fictional e-commerce marketplace company based in Berlin, German
 Insights and recommendations are provided on the following key areas: 
 - 💳 **Customer Demographics and Segmentation**: A detailed breakdown of customer age and gender in relation to revenue, along with a segmentation based on spending behavior to identify high- and low-value customer groups.
 - 📦 **Seller and Product Performances**: An analysis of Fecom Inc's various product lines and sellers, understanding their impact on sales and returns.
-- 📦 **Payment, Delivery and Review Performance**: An evaluation of transaction values and delivery times to identify patterns, delays, and their impact on customer satisfaction and operational efficiency.
+- 📦 **Payment, Delivery and Reviews**: An evaluation of transaction values and delivery times to identify patterns, delays, and their impact on customer satisfaction and operational efficiency.
 - 📊 **Sales Trends Analysis**: An evaluation of historical sales patterns, focusing on Revenue, Month Over Month Change, Moving Averages.
 
 
@@ -60,6 +60,40 @@ The Power BI dashboard overview page is shown below, and the report has addition
 * **Geographic Expansion:** Strong European seller presence with growth opportunities in emerging markets like Sweden, Serbia, Slovenia, and Estonia for market penetration strategies.
 
 * **Profitability Mix:** Premium categories like Computers ($1,182 average) drive profitability, while volume leaders like Bed_Bath_Table (11,107 units) and Health_Beauty (9,619 units) ensure transaction frequency and market penetration
+
+# Payment, Delivery and Reviews
+
+* **Customer Satisfaction:** Strong 4.09/5 average review score indicates high customer satisfaction, with quick 2.58-day response time to customer inquiries demonstrating excellent customer service capabilities.
+
+* **Delivery Performance:** Exceptional 90.49% on-time delivery rate with 12.52-day average delivery time shows reliable logistics operations, though 6.59% late deliveries and 2.91% non-delivered orders present improvement opportunities.
+
+* **Seasonal Delivery Patterns:** February shows highest delivery times (16.58 days) while August achieves fastest delivery (8.99 days), indicating seasonal capacity management challenges requiring operational optimization.
+
+* **Delivery Quality Impact:** Review scores correlate strongly with delivery speed, dropping from 4.24 for 0-9 day deliveries to 1.77 for non-delivered orders, highlighting delivery performance as a critical satisfaction driver.
+
+* **Order Fulfillment:** Strong order completion with 96,211 delivered orders (97.1% of total), while 580 canceled and 602 unavailable orders indicate minimal fulfillment issues.
+
+* **Payment Method Preferences:** Credit cards dominate at 74.69% usage ($12.3M revenue), followed by debit cards at 19.90% ($2.9M), showing customer preference for traditional payment methods over alternative options like vouchers (1.61%) and prepaid cards (1.54%).
+
+* **Delivery Status Reviews:** On-time deliveries achieve highest satisfaction (4.29 rating) compared to late deliveries (2.27) and non-delivered orders (1.77), emphasizing delivery reliability as key to customer retention.
+
+
+# Sales Trends 
+
+* **Overall Performance:** Strong business performance with 99,092 total orders generating $15.94M revenue at $160.9 average order value, with peak performance on 11/24/2023 (Black Friday) achieving 1,176 orders and $179,200 revenue in a single day.
+
+* **Seasonal Revenue Patterns:** Clear seasonality emerges with Q4 2023 showing exceptional performance (November: $1.19M), while 2024 demonstrates consistent growth with March ($1.61M) and July ($1.66M) as peak months, indicating successful business expansion.
+
+* **Order Volume Trends:** Monthly order patterns show 2023 peak in November (7,544 orders) followed by steady 2024 performance, with March (7,211 orders) and July (6,292 orders) leading, while weekday analysis reveals Tuesday as the strongest sales day (16,199 orders).
+
+* **Average Order Value Dynamics:** AOV demonstrates stability around $160-170 range with notable fluctuations, showing decline from $173.1 (January 2023) to $159.2 (July 2024), suggesting potential pricing pressure or customer behavior shifts requiring strategic attention.
+
+* **Month-over-Month Growth:** Mixed MoM performance with strong revenue growth indicators in early 2024 (March: +$1.16M MoM), while later months show declining trends, indicating need for sustained growth momentum strategies.
+
+* **Revenue Trend Analysis:** 3-month moving average shows consistent upward trajectory from $20K baseline to $40K+ levels, demonstrating strong business fundamentals and growth sustainability despite short-term fluctuations.
+
+* **Order Count vs. Value Correlation:** Inverse relationship visible between order volume and average order value, with higher volume months (9K-11K orders) corresponding to lower AOV ($155-165), suggesting volume-driven promotional strategies impact pricing dynamics.
+
 
 
 # Key Insights
